@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button"
 import { Navbar } from "@/components/Navbar"
 import { Users, HeartHandshake, MessageSquare, Wrench, Shield, Heart, CodeXml, Send, BookOpen, ShoppingCart, MessageCircle } from "lucide-react"
@@ -20,7 +19,7 @@ const Index = () => {
       
       {/* Hero Section */}
       <div id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className={`absolute inset-0 bg-[url('/minecraft-banner.jpg')] bg-cover bg-center ${theme === 'dark' ? 'opacity-30' : 'opacity-15'}`} />
+        <div className={`absolute inset-0 bg-[url('./minecraft-banner.jpg')] bg-cover bg-center ${theme === 'dark' ? 'opacity-30' : 'opacity-15'}`} />
         
         <div className="relative z-10 text-center space-y-6">
           <h1 className="minecraft-gradient text-7xl font-bold">MineLacs</h1>
@@ -28,7 +27,7 @@ const Index = () => {
           <div className="flex gap-4 justify-center">
             <Button 
               size="lg"
-              onClick={() => window.location.href = "/launcher-download"}
+              onClick={() => window.location.href = "./launcher-download"}
               className="bg-orange-500 hover:bg-orange-600 text-lg font-bold nav-button shadow-lg"
             >
               Лаунчер
@@ -145,14 +144,14 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Copyright Section - Now left-aligned and adjusted to not overlap with navigation buttons */}
+      {/* Copyright Section */}
       <div id="copyright" className="relative py-8 px-4 pb-24">
         <div className="absolute inset-0 backdrop-blur-sm z-0"></div>
         <div className="relative z-10 container mx-auto">
           <div className="flex flex-col md:flex-row items-start gap-6">
             <div className="flex items-center space-x-4">
               <img 
-                src="/lovable-uploads/ff43fe5e-edfd-441c-8d13-d8e5268e5a8f.png" 
+                src="./lovable-uploads/ff43fe5e-edfd-441c-8d13-d8e5268e5a8f.png" 
                 alt="MineLacs Logo" 
                 className="h-16" 
               />

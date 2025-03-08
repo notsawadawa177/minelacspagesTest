@@ -1,4 +1,3 @@
-
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuContent, NavigationMenuTrigger } from "@/components/ui/navigation-menu"
 import { cn } from "@/lib/utils"
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
@@ -22,7 +21,7 @@ export function Navbar() {
         <div className="mr-4">
           <a href="/" className="mr-6 flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/ff43fe5e-edfd-441c-8d13-d8e5268e5a8f.png" 
+              src="./lovable-uploads/ff43fe5e-edfd-441c-8d13-d8e5268e5a8f.png" 
               alt="MineLacs Logo" 
               className="h-14 transition-all duration-500 hover:rotate-[360deg]" 
             />
